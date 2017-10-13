@@ -79,7 +79,7 @@ function updateProductSales(id, totalprice){
 		if(err) throw err;
 		// console.log(res);
 		console.log("totalprice: ",totalprice);
-		console.log("db price: ", res[0].price);
+		// console.log("db price: ", res[0].price);
 		connection.query("update products set ? where ?", 
 			[{
 				product_sales: res[0].product_sales + parseFloat(totalprice)

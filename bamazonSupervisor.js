@@ -39,7 +39,7 @@ function menuOptions(){
 };
 
 function viewProductForSale(){
-  connection.query("select department_id, products.department_name, over_head_cost, product_sales, over_head_cost - product_sales as total_profit from products inner join department on products.department_name = department.department_name", function(err, res){
+  connection.query("select department_id, products.department_name, over_head_cost, sum(product_sales),  sum(product_sales) -  over_head_cost as total_profit from products inner join department on products.department_name = department.department_name group by department_name", function(err, res){
     if(err) throw err;
     console.log(res);
   });
