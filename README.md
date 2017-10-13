@@ -19,9 +19,9 @@ npm install
 5. App will display Total price  
 ![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/1-customer%20view/1.png)
 6. App will update the database
-pic reflect
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/1-customer%20view/reflect%20stock.png)
 7. If there is not enogh stock, it will prevent the order from going through
-pic not enogh
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/1-customer%20view/not%20enogh.png)
 
 ### Manager View
 
@@ -29,40 +29,40 @@ pic not enogh
 
 1. Run bamazonManager.js on node.js
 2. Choose View Products for Sale
-pic 1-View Products for sale
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/2-manager%20view/1-View%20Products%20for%20Sale.png)
 3. App will display all products
-pic 2-View products for sale
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/2-manager%20view/2-View%20Products%20for%20Sale.png)
 
 #### View Low Inventory
 
 1. Run bamazonManager.js on node.js
 2. Choose View Low Inventory
-pic 1-View Low inventory
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/2-manager%20view/1-View%20Low%20Inventory.png)
 3. App will display low inventories
-pic 2-View Low inventory
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/2-manager%20view/2-View%20Low%20Inventory.png)
 
 #### Add to Inventory
 
 1. Run bamazonManager.js on node.js
 2. Choose Add to Inventory
-pic 1-Add to Inventory
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/2-manager%20view/1-Add%20to%20Inventory.png)
 3. Type an ID of the product to add inventory
-pic 2-Add to Invetory
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/2-manager%20view/2-Add%20to%20Inventory.png)
 4. Type quantity
-pic 3-Add to inventory
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/2-manager%20view/3-Add%20to%20Inventory.png)
 5. App will upadate the database
-pic 4-Add to inventory
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/2-manager%20view/4-Add%20to%20Inventory.png)
 
 #### Add New Product
 
 1. Run bamazonManager.js on node.js
 2. Choose Add new product
-pic 1
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/3-rrr/1.png)
 3. Type the name of product
 4. Choose department
 5. Type the price
 6. Type the stock quantity
-pic 5
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/3-rrr/5.png)
 7. App will update the database
 
 ### Supervisor View
@@ -71,6 +71,11 @@ pic 5
 
 1. Run bamazonSupervisor.js on node.js
 2. Choose View product sales by department
-pic 1
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/4-rrr/1.png)
 3. App will display summarized product informaiton
-pic sum
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/4-rrr/sum.png)
+
+#### Create new department
+
+1. Run bamazonSupervisor.js on node.js
+2. Choose Create new department
