@@ -17,7 +17,7 @@ npm install
 3. Type an ID of the product you would like to buy
 4. Type the quantity of the unit
 5. App will display Total price  
-[[https://github.com/jinredhub/bamazon/blob/master/screenshots/1-customer%20view/1.png|alt=octocat]]
+![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/1-customer%20view/1.png)
 6. App will update the database
 pic reflect
 7. If there is not enogh stock, it will prevent the order from going through
