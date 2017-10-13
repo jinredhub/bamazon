@@ -19,10 +19,10 @@ npm install
 5. App will display Total price  
 
 ![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/1-customer%20view/1.png)
-6. App will update the database
+6. App will update the database:
 
 ![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/1-customer%20view/reflect%20stock.png)
-7. If there is not enogh stock, it will prevent the order from going through
+7. If there is not enogh stock, it will prevent the order from going through:
 
 ![alt text](https://github.com/jinredhub/bamazon/blob/master/screenshots/1-customer%20view/not%20enogh.png)
 
