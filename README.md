@@ -18,7 +18,7 @@ npm install
 4. Type the quantity of the unit
 5. App will display Total price  
 pic 1
-(screenshots/1-customer view/1.png)
+(screenshots/1-customer view/1.png?raw=true)
 6. App will update the database
 pic reflect
 7. If there is not enogh stock, it will prevent the order from going through
