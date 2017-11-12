@@ -19,6 +19,7 @@ connection.connect(function(err){
 	menuOptions();
 });
 
+// using inquire to get user input
 function menuOptions(){
 	inquirer.prompt([
 		{
@@ -44,6 +45,7 @@ function menuOptions(){
 	})
 };
 
+// display all products
 function viewProductForSale(){
 	connection.query("select * from products", function(err, res){
 		if(err) throw err;
@@ -51,6 +53,7 @@ function viewProductForSale(){
 	});
 }
 
+// display only products if inventory is low
 function viewLowInventory(){
 	connection.query("select * from products where stock_quantity < 5", function(err, res){
 		if (err) throw err;
@@ -58,6 +61,7 @@ function viewLowInventory(){
 	});
 }
 
+// using inquire to get user input then update db
 function addToInventory(){
 	inquirer.prompt([
 		{
@@ -89,6 +93,7 @@ function addToInventory(){
 	});
 }
 
+// using inquire to get user input. Add new product to db
 function addNewProduct(){
 	inquirer.prompt([
 		{

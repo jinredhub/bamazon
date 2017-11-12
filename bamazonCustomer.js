@@ -19,6 +19,7 @@ connection.connect(function(err){
 	readProducts();
 });
 
+// display all products
 function readProducts(){
 	connection.query("select * from products", function(err, res){
 		if(err) throw err;
@@ -27,6 +28,7 @@ function readProducts(){
 	});
 };
 
+// using inquire to get user input then display the total price then update db
 function placeOrder(){
 	inquirer.prompt([
 		{
@@ -74,6 +76,7 @@ function placeOrder(){
 	});
 }
 
+// update db from quantity uer typed in
 function updateProductSales(id, totalprice){
 	connection.query("select * from products where item_id = " + id, function(err, res){
 		if(err) throw err;

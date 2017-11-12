@@ -19,6 +19,7 @@ connection.connect(function(err){
 	menuOptions();
 });
 
+// using inquire to get user input
 function menuOptions(){
   inquirer.prompt([
     {
@@ -38,6 +39,7 @@ function menuOptions(){
   })
 };
 
+// display summarized product info
 function viewProductForSale(){
   connection.query("select department_id, products.department_name, over_head_cost, sum(product_sales),  sum(product_sales) -  over_head_cost as total_profit from products inner join department on products.department_name = department.department_name group by department_name", function(err, res){
     if(err) throw err;
@@ -45,6 +47,7 @@ function viewProductForSale(){
   });
 }
 
+// using inquire to get user input then update db
 function createNewDepartment(){
   inquirer.prompt([
     {
