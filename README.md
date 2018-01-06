@@ -1,6 +1,6 @@
-# bamazon
+# torefront-manager
 
-Amazon-like storefront using MySQL with node.js
+storefront management system using MySQL with node.js
 
 ### Prerequisites
 
